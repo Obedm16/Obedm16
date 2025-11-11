@@ -26,7 +26,6 @@ window.onscroll = () => {
     });
     /* A navbar fixed*/
 
-
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -60,3 +59,79 @@ const typed = new Typed('.multiple-text', {
     delaySpeed: 50,
     loop: true
 })
+
+/* Creating a sending contact setup */
+const form =document.querySelector('form');
+const f_name = document.getElementById("name");
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+const password = document.getElementById("password");
+const subject = document.getElementById("subject");
+const message = document.getElementById("message");
+
+function sendEmail() {
+    const bodyMessage = `Full Name: ${f_name.value} <br>
+     Email: ${email.value} <br>
+     Mobile Number: ${phone.value} <br>
+     Message: ${message.value} <br>`
+
+
+    sendEmail.send({
+        SecureToken : "6b6c5159-000d-4b1e-9ea5-aa69d88e8479",
+        Host: "smtp.elasticemail.com",
+        Username: "mikeoduoli@gmail.com",
+        Password: "370F66DB1E0E5D31AB5D8D99E3C7DE694F27",
+        To: "mikeoduoli@gmail.com",
+        From: "mikeoduoli@gmail.com",
+        Subject: subject.value,
+        Body: bodyMessage,
+    })
+    .then(
+        message => {
+            if(message == "OK"){
+                Swal.fire({
+                    title: "Messsage Sent Successfully!",
+                    text: "Thank you contacting and will reach out ASAP",
+                    icon: "success"
+                  });
+            }
+        }
+    );
+}
+
+function checkInputs () {
+    const items = document.querySelectorAll(".item");
+
+    for (const item of items){
+        if (item.value == "") {
+            item.classList.add("error");
+            item.parentElement.classList.add("error");
+        }
+
+        item.addEventListener("keyup", () => {
+            if (item.value != "") {
+                item.classList.remove("error");
+                item.parentElement.classList.remove("error");
+            }
+
+            else {
+                item.classList.add("error");
+                item.parentElement.classList.add("error");
+            }
+        })
+    }
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkInputs();
+
+    if(!f_name.classList.contains("error") && !sendEmail.classList.contains("error")
+         && !phone.classList.contains("error") && !subject.classList.contains("error")
+         && !mess.classList.contains("error")) {
+            sendEmail();
+
+            form.reset();
+            return false;
+    }
+});

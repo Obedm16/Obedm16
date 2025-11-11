@@ -77,6 +77,7 @@
                     <li>HTML 5</li>
                     <li>CSS 3</li>
                     <li>JavaScript</li>
+                    <li>Vue/Nuxt</li>
                     <li>React JS</li>
                     <li>React Native</li>
                     <li>Firebase</li>
@@ -141,7 +142,7 @@
                         Incidunt perspiciatis, facere iusto atque eaque ducimus 
                         aspernatur expedita accusantium eius sunt error dignissimos 
                         dolorem corporis in dolor fuga provident quidem voluptatum?</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -152,7 +153,7 @@
                         Incidunt perspiciatis, facere iusto atque eaque ducimus 
                         aspernatur expedita accusantium eius sunt error dignissimos 
                         dolorem corporis in dolor fuga provident quidem voluptatum?</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -167,25 +168,24 @@
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="./images/portfolio4.jpg" alt="">
+                <img src="./images/vue_jobs-img.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Corporate Websites</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Incidunt perspiciatis, facere iusto atque eaque ducimus 
-                        aspernatur expedita accusantium eius sunt error dignissimos 
+                        Incidunt perspiciatis, faceres 
                         dolorem corporis in dolor fuga provident quidem voluptatum?</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://vue-jobs-three.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="./images/portfolio5.jpg" alt="">
+                <img src="./images/dreambig-img.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Graphics Design</h4>
+                    <h4>Dream Big</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Incidunt perspiciatis, facere iusto atque eaque ducimus 
                         aspernatur expedita accusantium eius sunt error dignissimos 
                         dolorem corporis in dolor fuga provident quidem voluptatum?</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://dreambig-phi.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -196,7 +196,7 @@
                         Incidunt perspiciatis, facere iusto atque eaque ducimus 
                         aspernatur expedita accusantium eius sunt error dignissimos 
                         dolorem corporis in dolor fuga provident quidem voluptatum?</p>
-                        <a href="https://mikeoduoli.github.io/simple_landing_Adventure/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://mikeoduoli.github.io/simple_landing_Adventure/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
@@ -209,16 +209,31 @@
         <h2 class="heading">Contact <span>Me</span></h2>
 
         <form action="">
-            <div class="input-box">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile number">
-                <input type="text" placeholder="Subject">
+            <div class="form-container">
+                <div class="input-box">
+                    <input type="text" placeholder="Name" id="name" class="item" autocomplete="off">
+                </div>
+                    <div class="error-txt">Name Can't be blank!</div>
+
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="email" class="item" autocomplete="off">
+                </div>
+                    <div class="error-txt">Email is required!</div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile number" id="phone" class="item" autocomplete="off">
+                </div>
+                    <div class="error-txt">Your phone number is required!</div>
+                
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" id="subject">
+                </div>
+                    <div class="error-txt">Subject is required!</div>
+                </div>
             </div>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <textarea name="" id="message" class="item" cols="30" rows="10" placeholder="Message"></textarea>
+            <div class="error-txt">Kindly provide the message.</div>
             <input type="submit" value="Leave Meassage" class="btn">
             </div>
         </form>
@@ -240,7 +255,12 @@
 
     <!-- Also The fancy typing effect/animation -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
+    
     <script src="./js/index.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtpjs"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
 </body>
 </html>

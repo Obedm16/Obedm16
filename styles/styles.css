@@ -32,8 +32,6 @@
     min-height: 100vh;
     padding: 10rem 9% 2rem;
   }
-
-  
   
   .header {
       position: fixed;
@@ -385,6 +383,18 @@
     .contact form .btn {
         margin-top: 2rem;
         cursor: pointer;
+    }
+
+    .error-txt {
+        font-size: 11px;
+        color: #d93025;
+        text-align: left;
+        margin:  -5px 0 10px;
+        display: none;
+    }
+
+    .form-container {
+        background: #000;
     }
 
     .footer {
