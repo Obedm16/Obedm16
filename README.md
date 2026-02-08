@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Obed Oduoli - (_Maichol_)
+# 👋 Hi, I'm Michael Obed
 
 ## 🎯 **Analytics Engineer** | Former Frontend Developer
 **Building reliable data pipelines that power actionable insights and intuitive applications.**
