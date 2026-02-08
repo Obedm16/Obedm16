@@ -1,47 +1,88 @@
+# 👋 Hi, I'm Obed Oduoli - (_Maichol_)
 
+## 🎯 **Analytics Engineer** | Former Frontend Developer
+**Building reliable data pipelines that power actionable insights and intuitive applications.**
 
-<h2>Hello there 👋</h2> 
+---
 
-I am a Frontend Developer and Data & Security Analyst, with strong foundation in my field, I blend in well in terms of technical aspect and articulating the business need.
+## 🚀 **My Unique Value Proposition**
 
-<strong>Contact:</strong>
-<p class="fa-solid fa-email">mikeoduoli@gmail.com</p>
-<p class="fa-solid fa-phone"></p>
+I bridge the gap between **data infrastructure** and **user experience**. With a background in frontend development, I build data pipelines and models with the end-user in mind—whether that's a dashboard, internal tool, or data product. I don't just move data; I ensure it's usable, reliable, and drives decisions.
 
+**Transition Story:** Frontend Developer → Analytics Engineer  
+**Why it matters:** I understand both how data is consumed and how it should be engineered.
 
-<bold>Skills:</bold>
-<li>Data Analysis</li>
-<li>Frontend Development</li>
+---
 
-<strong>Data Analysis:</strong>
-1. Excel
-2. SQL - PostgreSQL, MySQL
-3. Python for Data Analysis (Pandas, NumPy, Matplotlib(plotly), Seaborn) || R 
-4. Cloud Computing - GCP (Big Query), AWS (Redshift, S3)
-5. Snowflake
-6. Data Build Tool
+## 🛠️ **Core Technical Stack**
 
-<strong>BI Tools</strong>
-1. Excel/Spreadsheet
-2. Tableau
-3. Power BI
+### **Data Engineering & Analytics**
+`Python` `SQL` `ETL/ELT` `Data Modeling` `dbt` `Airflow` `Data Warehousing` `MongoDB` `Data Visualization`
 
+### **Frontend & Application Development** 
+`Vue.js` `JavaScript` `HTML/CSS` `D3.js` `Chart.js` `APIs`
 
-<strong>Frontend Developer</strong>
-1. HTML, CSS and JavaScript
-2. Library: React.Js, Vue.Js
-3. CSS Framework: Tailwind
-4. Software Architecture Pattern: Model View Controller (MVC)
+### **Tools & Platforms**
+`Git` `Docker` `AWS/GCP` `Tableau/Looker` `VS Code` `Jupyter`
 
-   ## 📌 Pinned Projects
+---
 
-> Coming soon — rebuilding from scratch 💪  
-> Stay tuned for some exciting frontend projects and real-world dashboards.
+## 📂 **Featured Projects**
 
-<h2>Connect with me via Social:</h2>
-<a href="https://www.linkedin.com/in/obed-oduoli/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-<br>
-<a href="https://twitter.com/obed_m16"><i class="fa-brands fa-x-twitter"></i>X (Twitter)</a>
-<br>
-<a href="https://public.tableau.com/app/profile/obed.oduoli/vizzes">Tableau</a>
+<!-- ### 🔧 **[Data Pipeline: E-Commerce Analytics Platform](https://github.com/Obedm16/ecommerce-data-pipeline)**
+A complete ELT pipeline that processes e-commerce data into modeled datasets for business intelligence.
+- **Tech:** Python, Apache Airflow, PostgreSQL, dbt
+- **Frontend Integration:** Built Vue.js dashboard consuming the clean data
+- **Key Feature:** Automated data quality checks and alerting
 
+### 📊 **[Full-Stack Analytics Dashboard](https://github.com/Obedm16/analytics-dashboard)**
+Interactive dashboard visualizing sales metrics with real-time updates.
+- **Tech:** Vue.js, D3.js, FastAPI, PostgreSQL
+- **Data Layer:** Optimized queries and materialized views for performance
+- **Unique Angle:** Designed both the data model AND the visualization layer
+
+### 🔐 **[Data Security Audit Tool](https://github.com/Obedm16/data-audit-tool)**
+Python tool for monitoring data pipeline access and identifying PII exposure risks.
+- **Tech:** Python, SQL, Logging frameworks
+- **Value:** Combines cybersecurity principles with data engineering -->
+
+---
+
+## 📈 **Current Focus**
+- Building scalable data pipelines with observability and data quality built-in
+- Exploring modern data stack tools (dbt, Dagster, Snowflake)
+- Writing about the intersection of data engineering and product development
+
+---
+
+## 🎓 **Certifications & Education**
+- **BBIT** - Multimedia University of Kenya
+- **Data Engineering Track** - DataCamp Scholarship
+- **Meta Frontend Developer** - Meta Professional Certificate
+- **Vue.js & MongoDB** - Udemy
+
+---
+
+## 📝 **Latest Blog Posts / Thoughts**
+<!-- Add links when you create content -->
+<!--1. [From Vue Components to Data Models: How Frontend Thinking Improves Data Engineering](link-to-blog)
+2. [Building Your First Production Data Pipeline: Lessons Learned](link-to-blog)
+3. [The Analytics Engineer's Toolkit: 2024 Edition](link-to-blog) -->
+
+---
+
+## 📫 **Connect With Me**
+- **LinkedIn:** [Obed Oduoli](https://www.linkedin.com/in/obed-oduoli/) - Let's discuss data engineering and career transitions
+- **Twitter/X:** [@obed_m16](https://x.com/obed_m16) - Sharing my journey from frontend to data
+- **Email:** [mikeoduoli@gmail.com]
+
+---
+
+## 🎨 **Fun Facts**
+- Former frontend developer who fell in love with data infrastructure
+- Believe clean data is as important as clean code
+- Enjoy turning complex data problems into simple, usable solutions
+
+---
+
+**Open to:** Analytics Engineer, Data Engineer, BI Engineer roles where I can leverage my full-stack perspective.
