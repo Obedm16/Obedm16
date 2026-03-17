@@ -357,9 +357,17 @@
     }
 
     .contact form .input-box {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact form .input-box:nth-child(-n+4) {
+            width: 49%;
+        }
+    
+    .contact form .input-box:nth-child(5) {
+        width: 100%;
     }
 
     .contact form .input-box input, .contact form textarea {
@@ -373,7 +381,7 @@
     }
 
     .contact form .input-box input {
-        width: 49%;
+        width: 100%;
     }
 
     .contact form textarea {
@@ -393,9 +401,16 @@
         display: none;
     }
 
-    .form-container {
-        background: #000;
+
+    .contact form .form-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+
+    /* .form-container {
+        background: #000;
+    } */
 
     .footer {
         display: flex;
