@@ -56,7 +56,7 @@ Python tool for monitoring data pipeline access and identifying PII exposure ris
 ---
 
 ## 🎓 **Certifications & Education**
-- **BBIT** - Multimedia University of Kenya
+- **BBIT** - Riara University
 - **Data Engineering Track** - DataCamp Scholarship
 - **Meta Frontend Developer** - Meta Professional Certificate
 - **Vue.js & MongoDB** - Udemy
