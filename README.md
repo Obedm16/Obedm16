@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Michael Obed
 
-## 🎯 **Analytics Engineer** | Former Frontend Developer
+## 🎯 **Analytics Engineer** | Frontend Developer
 **Building reliable data pipelines that power actionable insights and intuitive applications.**
 
 ---
